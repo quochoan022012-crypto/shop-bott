@@ -10,7 +10,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 TOKEN = os.getenv("TOKEN")
 
 if not TOKEN:
-    raise Exception("8640486596:AAHNd71gPSav2Kikh-R4inRkul6kvXh11ig")
+    raise Exception("TOKEN chưa được set trong Railway Variables")
 
 bot = telebot.TeleBot(TOKEN)
 
